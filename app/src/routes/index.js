@@ -8,6 +8,7 @@ import LoginPage from './LoginPage';
 import HomePage from './HomePage';
 import AddNaverPage from './AddNaverPage';
 import EditNaverPage from './EditNaverPage';
+import ProtectedRoute from '../components/ProtectedRoute';
 
 function Routes(props){
     const { history } = props
@@ -16,9 +17,9 @@ function Routes(props){
         <ConnectedRouter history={history}>
             <Switch>
                 <Route exact path={routes.login} component={LoginPage}/>
-                <Route exact path={routes.home} component={HomePage}/>
-                <Route exact path={routes.addNaver} component={AddNaverPage}/>
-                <Route exact path={routes.editNaver} component={EditNaverPage}/>
+                <ProtectedRoute exact path={routes.home} component={HomePage}/>
+                <ProtectedRoute exact path={routes.addNaver} component={AddNaverPage}/>
+                <ProtectedRoute exact path={routes.editNaver} component={EditNaverPage}/>
             </Switch>
         </ConnectedRouter>
     )
