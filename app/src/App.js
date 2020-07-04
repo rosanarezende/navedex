@@ -4,16 +4,14 @@ import { history, store } from "./store"
 
 import Routes from './routes';
 
-import Appbar from './components/Appbar';
-import Message from './components/Message';
+import Message from './containers/Message';
+import Confirm from './containers/Confirm';
 
 function App() {
-  const url = window.location.pathname.substr(1, 10)
-
   return (
     <Provider store={store}>
-        {url !== "login" && <Appbar/>}
         <Message/>
+        <Confirm/>
         <Routes history={history} />
     </Provider>
   );

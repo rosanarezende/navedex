@@ -6,3 +6,5 @@ export const routes = {
 }
 
 export const baseUrl = "https://navedex-api.herokuapp.com/v1"
+
+export const getToken = () => localStorage.getItem("token")

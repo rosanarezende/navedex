@@ -1,10 +1,18 @@
 import React from "react"
 
-function AddNaverPage(){
+import Appbar from '../../containers/Appbar'
+import CreateEditStructure from "../../containers/CreateEditStructure"
 
+function AddNaverPage() {
+    const userInfoStart = {}
+    
     return (
         <>
-        AddNaverPage
+            <Appbar />
+            <CreateEditStructure
+                title="Adicionar Naver"
+                userInfoStart={userInfoStart}
+            />
         </>
     )
 }

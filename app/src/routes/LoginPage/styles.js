@@ -17,6 +17,7 @@ export const Box = styled.div`
 
 export const Logo = styled.img`
     margin-top: 10%;
+    width: 52%;
 `
 
 export const Form = styled.form`
@@ -47,6 +48,14 @@ export const Label = styled.label`
 export const Input = styled.input`
     height: 17.5%;
     margin-bottom: 8.5%;
+    padding-left: 2%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9E9E9E;
 
     background: #FFFFFF;
     border: 1px solid #424242;
