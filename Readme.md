@@ -96,7 +96,7 @@ git push origin feature
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2020 - Chuck Norris Facts
+Copyright :copyright: 2020 - Navedex
 
 <br>
 
