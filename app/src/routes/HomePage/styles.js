@@ -50,6 +50,7 @@ export const NaverImage = styled.div`
     height: 38.9vh;
     width: 21.9vw;
     margin-bottom: 2.2vh;
+    cursor: pointer;
 
     background-image: url(${props => props.image});
     background-color: #cccccc;
