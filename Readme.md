@@ -6,6 +6,10 @@
 
 <br>
 
+<p align="center">
+  <img  height='600' src='https://user-images.githubusercontent.com/45580434/86523046-d9d2af80-be3c-11ea-8c6a-cd072f9cd4d6.gif'>
+</p>
+
 ## Escopo
 
 Contruir o **Navedex**: o sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como nomes, idades, cargos, tempo de empresa e projetos que participou.
